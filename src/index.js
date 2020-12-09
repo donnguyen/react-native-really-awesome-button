@@ -429,6 +429,8 @@ export default class Button extends React.Component {
     return (
       <TouchableWithoutFeedback
         testID="aws-btn-content-view"
+        delayPressIn={0}
+        delayPressOut={0}
         onPressIn={this.pressIn}
         onPressOut={this.pressOut}
       >
